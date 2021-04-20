@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Test Maven Suite]">
-  <test name="Test Maven Testing(failed)">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="url" value="facebook"/>
+  <listeners>
+    <listener class-name="TestNG.ListenerTest"/>
+  </listeners>
+  <test name="regressionTesting(failed)">
     <classes>
-      <class name="com.qa.test.Allergy">
+      <class name="testRunner.TestRunner">
         <methods>
-          <include name="login"/>
-          <include name="Salt"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.qa.test.Allergy -->
+      </class> <!-- testRunner.TestRunner -->
+      <class name="TestNG.listen123">
+        <methods>
+          <include name="intialise123"/>
+          <include name="inti2"/>
+          <include name="intializing"/>
+        </methods>
+      </class> <!-- TestNG.listen123 -->
     </classes>
-  </test> <!-- Test Maven Testing(failed) -->
-</suite> <!-- Failed suite [Test Maven Suite] -->
+  </test> <!-- regressionTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -17,14 +17,14 @@ public class patientLogin {
 	//JavascriptExecutor jse;
 
 	//192.168.43.251
-	String url="https://192.168.43.252:8443/";
+	String url="https://192.168.17.10:8443/";
 	
 	 @BeforeSuite
 	
 	public void login1() {
 
 		try {
-			System.setProperty("webdriver.chrome.driver", "/home/raju/Documents/Chrome driver/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\kkr26\\Documents\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(url);
 			driver.manage().window().maximize();

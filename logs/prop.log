@@ -1,0 +1,4 @@
+16:58:23.144 [main] ERROR log4j1.demo - error message
+16:58:23.150 [main] INFO  log4j1.demo - info message
+16:58:23.150 [main] DEBUG log4j1.demo - debug condition
+16:58:23.151 [main] FATAL log4j1.demo - fatal error

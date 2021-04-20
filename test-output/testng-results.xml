@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12316" started-at="2020-12-10T11:45:47Z" finished-at="2020-12-10T11:45:59Z">
+  <suite name="Default suite" duration-ms="1194" started-at="2021-04-11T07:53:38Z" finished-at="2021-04-11T07:53:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12316" started-at="2020-12-10T11:45:47Z" finished-at="2020-12-10T11:45:59Z">
-      <class name="com.settingsTestcase.SettingTestcase13">
-        <test-method status="PASS" signature="login1()[pri:0, instance:com.settingsTestcase.SettingTestcase13@2a5ca609]" name="login1" is-config="true" duration-ms="18616" started-at="2020-12-10T17:15:29Z" finished-at="2020-12-10T17:15:47Z">
+    <test name="Default test" duration-ms="1194" started-at="2021-04-11T07:53:38Z" finished-at="2021-04-11T07:53:40Z">
+      <class name="TestNG.DataDriven1">
+        <test-method status="PASS" signature="dd()[pri:0, instance:TestNG.DataDriven1@20322d26]" name="dd" duration-ms="1169" started-at="2021-04-11T13:23:38Z" finished-at="2021-04-11T13:23:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method status="PASS" signature="set()[pri:0, instance:com.settingsTestcase.SettingTestcase13@2a5ca609]" name="set" duration-ms="12303" started-at="2020-12-10T17:15:47Z" finished-at="2020-12-10T17:15:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="PASS" signature="Aftersuite()[pri:0, instance:com.settingsTestcase.SettingTestcase13@2a5ca609]" name="Aftersuite" is-config="true" duration-ms="221" started-at="2020-12-10T17:15:59Z" finished-at="2020-12-10T17:16:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftersuite -->
-      </class> <!-- com.settingsTestcase.SettingTestcase13 -->
+        </test-method> <!-- dd -->
+      </class> <!-- TestNG.DataDriven1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
