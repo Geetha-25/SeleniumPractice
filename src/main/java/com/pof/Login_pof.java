@@ -18,7 +18,7 @@ public class Login_pof  {
 	}
 	
 	
-	@FindBy(how=How.XPATH, using = "//a[contains(text(),'Sign In')]")
+	@FindBy(how=How.XPATH, using = "//a[contains(text(),'Sign In1')]")
 	public WebElement signIn;
 	
 	@FindBy(how=How.ID, using = "userLoginId")
