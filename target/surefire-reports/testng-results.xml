@@ -2,93 +2,80 @@
 <testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36110" started-at="2021-04-08T10:54:09Z" finished-at="2021-04-08T10:54:45Z">
+  <suite name="Suite" duration-ms="35543" started-at="2021-04-20T04:40:38Z" finished-at="2021-04-20T04:41:13Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@55b699ef]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
       <group name="smoke">
-        <method signature="Android.z()[pri:0, instance:TestNG.Android@6c64cb25]" name="z" class="TestNG.Android"/>
-        <method signature="Desktop.desktopChrome()[pri:0, instance:TestNG.Desktop@6ae5aa72]" name="desktopChrome" class="TestNG.Desktop"/>
-        <method signature="IOS.iosChrome()[pri:0, instance:TestNG.IOS@5b239d7d]" name="iosChrome" class="TestNG.IOS"/>
-        <method signature="Android.z()[pri:0, instance:TestNG.Android@c8c12ac]" name="z" class="TestNG.Android"/>
-        <method signature="Android.z()[pri:0, instance:TestNG.Android@799f10e1]" name="z" class="TestNG.Android"/>
-        <method signature="Desktop.desktopChrome()[pri:0, instance:TestNG.Desktop@145f66e3]" name="desktopChrome" class="TestNG.Desktop"/>
-        <method signature="IOS.iosChrome()[pri:0, instance:TestNG.IOS@18078bef]" name="iosChrome" class="TestNG.IOS"/>
+        <method signature="Android.androidChrome()[pri:0, instance:TestNG.Android@49438269]" name="androidChrome" class="TestNG.Android"/>
+        <method signature="Desktop.desktopChrome()[pri:0, instance:TestNG.Desktop@1ff4931d]" name="desktopChrome" class="TestNG.Desktop"/>
+        <method signature="IOS.iosChrome()[pri:0, instance:TestNG.IOS@710f4dc7]" name="iosChrome" class="TestNG.IOS"/>
+        <method signature="Android.androidChrome()[pri:0, instance:TestNG.Android@7dc0f706]" name="androidChrome" class="TestNG.Android"/>
+        <method signature="Android.androidChrome()[pri:0, instance:TestNG.Android@17f7cd29]" name="androidChrome" class="TestNG.Android"/>
+        <method signature="Desktop.desktopChrome()[pri:0, instance:TestNG.Desktop@4e50c791]" name="desktopChrome" class="TestNG.Desktop"/>
+        <method signature="IOS.iosChrome()[pri:0, instance:TestNG.IOS@7d8704ef]" name="iosChrome" class="TestNG.IOS"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="Android.androidFirefox()[pri:0, instance:TestNG.Android@c8c12ac]" name="androidFirefox" class="TestNG.Android"/>
-        <method signature="Desktop.desktopfirefox()[pri:0, instance:TestNG.Desktop@6adbc9d]" name="desktopfirefox" class="TestNG.Desktop"/>
-        <method signature="Android.androidFirefox()[pri:0, instance:TestNG.Android@799f10e1]" name="androidFirefox" class="TestNG.Android"/>
-        <method signature="Desktop.desktopfirefox()[pri:0, instance:TestNG.Desktop@145f66e3]" name="desktopfirefox" class="TestNG.Desktop"/>
+        <method signature="Android.androidFirefox()[pri:0, instance:TestNG.Android@7dc0f706]" name="androidFirefox" class="TestNG.Android"/>
+        <method signature="Desktop.desktopfirefox()[pri:0, instance:TestNG.Desktop@43c1b556]" name="desktopfirefox" class="TestNG.Desktop"/>
+        <method signature="Android.androidFirefox()[pri:0, instance:TestNG.Android@17f7cd29]" name="androidFirefox" class="TestNG.Android"/>
+        <method signature="Desktop.desktopfirefox()[pri:0, instance:TestNG.Desktop@4e50c791]" name="desktopfirefox" class="TestNG.Desktop"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="smokeTesting" duration-ms="49" started-at="2021-04-08T10:54:09Z" finished-at="2021-04-08T10:54:09Z">
+    <test name="smokeTesting" duration-ms="34" started-at="2021-04-20T04:40:38Z" finished-at="2021-04-20T04:40:38Z">
       <class name="TestNG.IOS">
-        <test-method status="PASS" signature="iosChrome()[pri:0, instance:TestNG.IOS@5b239d7d]" name="iosChrome" duration-ms="0" started-at="2021-04-08T16:24:09Z" finished-at="2021-04-08T16:24:09Z">
+        <test-method status="PASS" signature="iosChrome()[pri:0, instance:TestNG.IOS@710f4dc7]" name="iosChrome" duration-ms="0" started-at="2021-04-20T10:10:38Z" finished-at="2021-04-20T10:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iosChrome -->
       </class> <!-- TestNG.IOS -->
       <class name="TestNG.Android">
-        <test-method status="PASS" signature="z()[pri:0, instance:TestNG.Android@6c64cb25]" name="z" duration-ms="26" started-at="2021-04-08T16:24:09Z" finished-at="2021-04-08T16:24:09Z">
+        <test-method status="PASS" signature="androidChrome()[pri:0, instance:TestNG.Android@49438269]" name="androidChrome" duration-ms="18" started-at="2021-04-20T10:10:38Z" finished-at="2021-04-20T10:10:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- z -->
+        </test-method> <!-- androidChrome -->
       </class> <!-- TestNG.Android -->
       <class name="TestNG.Desktop">
-        <test-method status="PASS" signature="desktopChrome()[pri:0, instance:TestNG.Desktop@6ae5aa72]" name="desktopChrome" duration-ms="0" started-at="2021-04-08T16:24:09Z" finished-at="2021-04-08T16:24:09Z">
+        <test-method status="PASS" signature="desktopChrome()[pri:0, instance:TestNG.Desktop@1ff4931d]" name="desktopChrome" duration-ms="0" started-at="2021-04-20T10:10:38Z" finished-at="2021-04-20T10:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- desktopChrome -->
       </class> <!-- TestNG.Desktop -->
     </test> <!-- smokeTesting -->
-    <test name="sanityTesting" duration-ms="18" started-at="2021-04-08T10:54:09Z" finished-at="2021-04-08T10:54:09Z">
+    <test name="sanityTesting" duration-ms="3" started-at="2021-04-20T04:40:38Z" finished-at="2021-04-20T04:40:38Z">
       <class name="TestNG.Android">
-        <test-method status="PASS" signature="z()[pri:0, instance:TestNG.Android@c8c12ac]" name="z" duration-ms="14" started-at="2021-04-08T16:24:09Z" finished-at="2021-04-08T16:24:09Z">
+        <test-method status="PASS" signature="androidChrome()[pri:0, instance:TestNG.Android@7dc0f706]" name="androidChrome" duration-ms="0" started-at="2021-04-20T10:10:38Z" finished-at="2021-04-20T10:10:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- z -->
-        <test-method status="PASS" signature="androidFirefox()[pri:0, instance:TestNG.Android@c8c12ac]" name="androidFirefox" duration-ms="0" started-at="2021-04-08T16:24:09Z" depends-on-methods="TestNG.Android.z" finished-at="2021-04-08T16:24:09Z">
+        </test-method> <!-- androidChrome -->
+        <test-method status="PASS" signature="androidFirefox()[pri:0, instance:TestNG.Android@7dc0f706]" name="androidFirefox" duration-ms="0" started-at="2021-04-20T10:10:38Z" depends-on-methods="TestNG.Android.androidChrome" finished-at="2021-04-20T10:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- androidFirefox -->
       </class> <!-- TestNG.Android -->
       <class name="TestNG.Desktop">
-        <test-method status="PASS" signature="desktopfirefox()[pri:0, instance:TestNG.Desktop@6adbc9d]" name="desktopfirefox" duration-ms="1" started-at="2021-04-08T16:24:09Z" finished-at="2021-04-08T16:24:09Z">
+        <test-method status="PASS" signature="desktopfirefox()[pri:0, instance:TestNG.Desktop@43c1b556]" name="desktopfirefox" duration-ms="0" started-at="2021-04-20T10:10:38Z" finished-at="2021-04-20T10:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- desktopfirefox -->
       </class> <!-- TestNG.Desktop -->
     </test> <!-- sanityTesting -->
-    <test name="regressionTesting" duration-ms="36015" started-at="2021-04-08T10:54:09Z" finished-at="2021-04-08T10:54:45Z">
-      <class name="testRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@55b699ef]" name="setUpClass" is-config="true" duration-ms="475" started-at="2021-04-08T16:24:23Z" finished-at="2021-04-08T16:24:24Z">
+    <test name="regressionTesting" duration-ms="35034" started-at="2021-04-20T04:40:38Z" finished-at="2021-04-20T04:41:13Z">
+      <class name="TestNG.IOS">
+        <test-method status="PASS" signature="iosChrome()[pri:0, instance:TestNG.IOS@7d8704ef]" name="iosChrome" duration-ms="1" started-at="2021-04-20T10:11:07Z" finished-at="2021-04-20T10:11:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@55b699ef]" name="feature" duration-ms="19954" started-at="2021-04-08T16:24:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-08T16:24:44Z">
+        </test-method> <!-- iosChrome -->
+        <test-method status="PASS" signature="iosFirefox(java.lang.String)[pri:0, instance:TestNG.IOS@7d8704ef]" name="iosFirefox" duration-ms="0" started-at="2021-04-20T10:11:07Z" finished-at="2021-04-20T10:11:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login]]>
+                <![CDATA[facebook]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@55b699ef]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2021-04-08T16:24:44Z" finished-at="2021-04-08T16:24:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.TestRunner -->
-      <class name="TestNG.IOS">
-        <test-method status="PASS" signature="iosChrome()[pri:0, instance:TestNG.IOS@18078bef]" name="iosChrome" duration-ms="1" started-at="2021-04-08T16:24:22Z" finished-at="2021-04-08T16:24:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iosChrome -->
-        <test-method status="PASS" signature="iosMultipleData(java.lang.String, java.lang.String)[pri:0, instance:TestNG.IOS@18078bef]" name="iosMultipleData" duration-ms="0" started-at="2021-04-08T16:24:22Z" data-provider="getdata" finished-at="2021-04-08T16:24:22Z">
+        </test-method> <!-- iosFirefox -->
+        <test-method status="PASS" signature="iosMultipleData(java.lang.String, java.lang.String)[pri:0, instance:TestNG.IOS@7d8704ef]" name="iosMultipleData" duration-ms="1" started-at="2021-04-20T10:11:07Z" data-provider="getdata" finished-at="2021-04-20T10:11:07Z">
           <params>
             <param index="0">
               <value>
@@ -104,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iosMultipleData -->
-        <test-method status="PASS" signature="iosMultipleData(java.lang.String, java.lang.String)[pri:0, instance:TestNG.IOS@18078bef]" name="iosMultipleData" duration-ms="0" started-at="2021-04-08T16:24:22Z" data-provider="getdata" finished-at="2021-04-08T16:24:22Z">
+        <test-method status="PASS" signature="iosMultipleData(java.lang.String, java.lang.String)[pri:0, instance:TestNG.IOS@7d8704ef]" name="iosMultipleData" duration-ms="0" started-at="2021-04-20T10:11:07Z" data-provider="getdata" finished-at="2021-04-20T10:11:07Z">
           <params>
             <param index="0">
               <value>
@@ -120,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iosMultipleData -->
-        <test-method status="PASS" signature="iosMultipleData(java.lang.String, java.lang.String)[pri:0, instance:TestNG.IOS@18078bef]" name="iosMultipleData" duration-ms="1" started-at="2021-04-08T16:24:22Z" data-provider="getdata" finished-at="2021-04-08T16:24:22Z">
+        <test-method status="PASS" signature="iosMultipleData(java.lang.String, java.lang.String)[pri:0, instance:TestNG.IOS@7d8704ef]" name="iosMultipleData" duration-ms="0" started-at="2021-04-20T10:11:07Z" data-provider="getdata" finished-at="2021-04-20T10:11:07Z">
           <params>
             <param index="0">
               <value>
@@ -136,52 +123,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iosMultipleData -->
-        <test-method status="PASS" signature="iosFirefox(java.lang.String)[pri:0, instance:TestNG.IOS@18078bef]" name="iosFirefox" duration-ms="1" started-at="2021-04-08T16:24:22Z" finished-at="2021-04-08T16:24:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[facebook]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iosFirefox -->
       </class> <!-- TestNG.IOS -->
       <class name="TestNG.listen123">
-        <test-method status="PASS" signature="intializing()[pri:0, instance:TestNG.listen123@4c371370]" name="intializing" is-config="true" duration-ms="13818" started-at="2021-04-08T16:24:09Z" finished-at="2021-04-08T16:24:22Z">
+        <test-method status="PASS" signature="intializing()[pri:0, instance:TestNG.listen123@3c3d9b6b]" name="intializing" is-config="true" duration-ms="15112" started-at="2021-04-20T10:10:38Z" finished-at="2021-04-20T10:10:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializing -->
-        <test-method status="PASS" signature="intialise123()[pri:0, instance:TestNG.listen123@4c371370]" name="intialise123" duration-ms="776" started-at="2021-04-08T16:24:22Z" finished-at="2021-04-08T16:24:23Z">
+        <test-method status="PASS" signature="intializing()[pri:0, instance:TestNG.listen1234@1e66f1f5]" name="intializing" is-config="true" duration-ms="13564" started-at="2021-04-20T10:10:53Z" finished-at="2021-04-20T10:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializing -->
+        <test-method status="PASS" signature="intialise123()[pri:0, instance:TestNG.listen123@3c3d9b6b]" name="intialise123" duration-ms="3281" started-at="2021-04-20T10:11:07Z" finished-at="2021-04-20T10:11:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialise123 -->
-        <test-method status="PASS" signature="inti2()[pri:0, instance:TestNG.listen123@4c371370]" name="inti2" is-config="true" duration-ms="801" started-at="2021-04-08T16:24:44Z" finished-at="2021-04-08T16:24:45Z">
+        <test-method status="PASS" signature="inti2()[pri:0, instance:TestNG.listen123@3c3d9b6b]" name="inti2" is-config="true" duration-ms="674" started-at="2021-04-20T10:11:12Z" finished-at="2021-04-20T10:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inti2 -->
+        <test-method status="PASS" signature="inti2()[pri:0, instance:TestNG.listen1234@1e66f1f5]" name="inti2" is-config="true" duration-ms="668" started-at="2021-04-20T10:11:13Z" finished-at="2021-04-20T10:11:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inti2 -->
       </class> <!-- TestNG.listen123 -->
       <class name="TestNG.Android">
-        <test-method status="PASS" signature="androidEdge()[pri:0, instance:TestNG.Android@799f10e1]" name="androidEdge" duration-ms="11" started-at="2021-04-08T16:24:22Z" finished-at="2021-04-08T16:24:22Z">
+        <test-method status="PASS" signature="androidChrome()[pri:0, instance:TestNG.Android@17f7cd29]" name="androidChrome" duration-ms="0" started-at="2021-04-20T10:11:07Z" finished-at="2021-04-20T10:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidChrome -->
+        <test-method status="PASS" signature="androidEdge()[pri:0, instance:TestNG.Android@17f7cd29]" name="androidEdge" duration-ms="4" started-at="2021-04-20T10:11:07Z" finished-at="2021-04-20T10:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- androidEdge -->
-        <test-method status="PASS" signature="z()[pri:0, instance:TestNG.Android@799f10e1]" name="z" duration-ms="1" started-at="2021-04-08T16:24:22Z" finished-at="2021-04-08T16:24:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- z -->
-        <test-method status="PASS" signature="androidFirefox()[pri:0, instance:TestNG.Android@799f10e1]" name="androidFirefox" duration-ms="0" started-at="2021-04-08T16:24:22Z" depends-on-methods="TestNG.Android.z" finished-at="2021-04-08T16:24:22Z">
+        <test-method status="PASS" signature="androidFirefox()[pri:0, instance:TestNG.Android@17f7cd29]" name="androidFirefox" duration-ms="0" started-at="2021-04-20T10:11:07Z" depends-on-methods="TestNG.Android.androidChrome" finished-at="2021-04-20T10:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- androidFirefox -->
       </class> <!-- TestNG.Android -->
+      <class name="TestNG.listen1234">
+        <test-method status="PASS" signature="intialise1234()[pri:0, instance:TestNG.listen1234@1e66f1f5]" name="intialise1234" duration-ms="1719" started-at="2021-04-20T10:11:10Z" finished-at="2021-04-20T10:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialise1234 -->
+      </class> <!-- TestNG.listen1234 -->
       <class name="TestNG.Desktop">
-        <test-method status="PASS" signature="desktopfirefox()[pri:0, instance:TestNG.Desktop@145f66e3]" name="desktopfirefox" duration-ms="1" started-at="2021-04-08T16:24:22Z" finished-at="2021-04-08T16:24:22Z">
+        <test-method status="PASS" signature="desktopfirefox()[pri:0, instance:TestNG.Desktop@4e50c791]" name="desktopfirefox" duration-ms="0" started-at="2021-04-20T10:11:07Z" finished-at="2021-04-20T10:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- desktopfirefox -->
-        <test-method status="PASS" signature="desktopChrome()[pri:0, instance:TestNG.Desktop@145f66e3]" name="desktopChrome" duration-ms="1" started-at="2021-04-08T16:24:22Z" finished-at="2021-04-08T16:24:22Z">
+        <test-method status="PASS" signature="desktopChrome()[pri:0, instance:TestNG.Desktop@4e50c791]" name="desktopChrome" duration-ms="1" started-at="2021-04-20T10:11:07Z" finished-at="2021-04-20T10:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- desktopChrome -->

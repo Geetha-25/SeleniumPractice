@@ -2,16 +2,40 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1194" started-at="2021-04-11T07:53:38Z" finished-at="2021-04-11T07:53:40Z">
+  <suite name="Default suite" duration-ms="17" started-at="2021-04-20T04:23:17Z" finished-at="2021-04-20T04:23:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1194" started-at="2021-04-11T07:53:38Z" finished-at="2021-04-11T07:53:40Z">
-      <class name="TestNG.DataDriven1">
-        <test-method status="PASS" signature="dd()[pri:0, instance:TestNG.DataDriven1@20322d26]" name="dd" duration-ms="1169" started-at="2021-04-11T13:23:38Z" finished-at="2021-04-11T13:23:40Z">
+    <test name="Default test" duration-ms="17" started-at="2021-04-20T04:23:17Z" finished-at="2021-04-20T04:23:17Z">
+      <class name="Testcases.tests1">
+        <test-method status="PASS" signature="befsuite1()[pri:0, instance:Testcases.tests1@71318ec4]" name="befsuite1" is-config="true" duration-ms="9" started-at="2021-04-20T09:53:17Z" finished-at="2021-04-20T09:53:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dd -->
-      </class> <!-- TestNG.DataDriven1 -->
+        </test-method> <!-- befsuite1 -->
+        <test-method status="PASS" signature="befTest1()[pri:0, instance:Testcases.tests1@71318ec4]" name="befTest1" is-config="true" duration-ms="0" started-at="2021-04-20T09:53:17Z" finished-at="2021-04-20T09:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest1 -->
+        <test-method status="PASS" signature="befMethod1()[pri:0, instance:Testcases.tests1@71318ec4]" name="befMethod1" is-config="true" duration-ms="0" started-at="2021-04-20T09:53:17Z" finished-at="2021-04-20T09:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Testcases.tests1@71318ec4]" name="test1" duration-ms="5" started-at="2021-04-20T09:53:17Z" finished-at="2021-04-20T09:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMethod1()[pri:0, instance:Testcases.tests1@71318ec4]" name="aftMethod1" is-config="true" duration-ms="1" started-at="2021-04-20T09:53:17Z" finished-at="2021-04-20T09:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod1 -->
+        <test-method status="PASS" signature="afTest1()[pri:0, instance:Testcases.tests1@71318ec4]" name="afTest1" is-config="true" duration-ms="0" started-at="2021-04-20T09:53:17Z" finished-at="2021-04-20T09:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afTest1 -->
+        <test-method status="PASS" signature="aftsuite1()[pri:0, instance:Testcases.tests1@71318ec4]" name="aftsuite1" is-config="true" duration-ms="0" started-at="2021-04-20T09:53:17Z" finished-at="2021-04-20T09:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftsuite1 -->
+      </class> <!-- Testcases.tests1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -4,6 +4,7 @@ com\patientLogin\Patient_Personal.class
 com\qa\test\PatientCreation.class
 com\PatientRateusTestcases\RateusTestcases19.class
 com\patientLogin\Autologout.class
+Testcases\tests2.class
 com\patientmessage\message.class
 com\qa\test\Vital.class
 com\qa\test\Alert1.class
@@ -15,6 +16,7 @@ com\qa\test\Problem.class
 com\qa\test\Procedure.class
 com\patientLogin\Settings_manageYourAccount.class
 com\PatientMessageTestcase\ViewInboxMessage.class
+TestNG\listen1234.class
 com\PatientMessageTestcase\ComposeMessageTestcase.class
 com\qa\test\PatientUpdate.class
 com\qa\test\HealthRecord.class
@@ -22,6 +24,7 @@ com\settingsTestcase\SettingTestcase6.class
 com\patientLoginTestCases\ChangePasswordTestcase.class
 com\patientLoginTestCases\AutologoutTestcase.class
 com\qa\test\DemoTest.class
+TestNG\ExtentReport.class
 stepDefinition\Definition.class
 TestNG\listen123.class
 com\PatientHomePageTestcases\HomePageTestcase3.class
@@ -77,13 +80,14 @@ com\PatientHomePageTestcases\HomePageTestcase4.class
 com\patientLoginTestCases\patientPersonal_TestCase.class
 com\patientLogin\Billing.class
 com\patientLogin\ChangePassword.class
-Testcases\login.class
 com\PatientRateusTestcases\RateUsTestcase4.class
 com\PatientRateusTestcases\RateusTestcases12.class
 com\qa\test\Symptom.class
 com\settingsTestcase\SettingTestcase2.class
 com\practiseSelenium\Brokenlink.class
 com\PatientRateusTestcases\RateusTestcases18.class
+TestNG\DataDriven1.class
+Testcases\tests1.class
 com\PatientMessageTestcase\MessageHelp.class
 TestNG\IOS.class
 com\patientLogin\patientContact.class
