@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.patientLogin.Dateformat;
 import com.patientLogin.Settings_manageYourAccount;
 import com.patientLogin.patientLogin;
-import com.qa.test.Settings;
+import com.qa.test1.Settings;
 import com.settings.Settings1;
 
 public class SettingTestcase10 extends patientLogin  {
