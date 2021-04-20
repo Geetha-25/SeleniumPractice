@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-import com.PatientHomepage.LoginPage;
+import com.PatientHomepages.LoginPage;
 import com.patientLogin.Billing;
 
 public class HomepageTestcases1 {

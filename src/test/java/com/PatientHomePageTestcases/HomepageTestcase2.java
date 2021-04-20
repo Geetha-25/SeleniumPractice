@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-import com.PatientHomepage.LoginPage;
+import com.PatientHomepages.LoginPage;
 import com.patientLogin.Billing;
 import com.patientLogin.patientLogin;
 

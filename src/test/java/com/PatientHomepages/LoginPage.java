@@ -1,4 +1,4 @@
-package com.PatientHomepage;
+package com.PatientHomepages;
 
 import java.util.List;
 
