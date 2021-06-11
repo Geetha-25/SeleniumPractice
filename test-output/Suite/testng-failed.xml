@@ -9,15 +9,32 @@
     <classes>
       <class name="TestNG.listen1234">
         <methods>
-          <include name="inti2"/>
-          <include name="intializing"/>
           <include name="intialise1234"/>
         </methods>
       </class> <!-- TestNG.listen1234 -->
+      <class name="TestNG.Android">
+        <methods>
+          <include name="androidChrome"/>
+          <include name="androidEdge"/>
+          <include name="androidFirefox"/>
+        </methods>
+      </class> <!-- TestNG.Android -->
+      <class name="TestNG.IOS">
+        <methods>
+          <include name="iosChrome"/>
+          <include name="iosMultipleData"/>
+          <include name="iosFirefox"/>
+        </methods>
+      </class> <!-- TestNG.IOS -->
+      <class name="TestNG.Desktop">
+        <methods>
+          <include name="desktopfirefox"/>
+          <include name="desktopChrome"/>
+        </methods>
+      </class> <!-- TestNG.Desktop -->
       <class name="TestNG.listen123">
         <methods>
           <include name="intialise123"/>
-          <include name="inti2"/>
           <include name="intializing"/>
         </methods>
       </class> <!-- TestNG.listen123 -->

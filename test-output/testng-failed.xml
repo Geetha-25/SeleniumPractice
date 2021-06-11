@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNG.DataDriven1">
+      <class name="TestNG.listen1234">
         <methods>
-          <include name="dd"/>
+          <include name="inti2"/>
+          <include name="intializing"/>
+          <include name="intialise1234"/>
         </methods>
-      </class> <!-- TestNG.DataDriven1 -->
+      </class> <!-- TestNG.listen1234 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

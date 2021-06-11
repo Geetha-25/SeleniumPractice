@@ -21,6 +21,7 @@ import resource.base;
 
 public class ListenerTest extends base implements ITestListener {
 	ExtentTest test;
+	//calling etent report class->classname.method
 	ExtentReports extent=ExtentReporterNG.getReportObject();
 	ThreadLocal<ExtentTest> extentTest =new ThreadLocal<ExtentTest>();
 	
